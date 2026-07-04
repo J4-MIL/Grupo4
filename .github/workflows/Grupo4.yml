@@ -17,3 +17,9 @@ jobs:
     steps:
       - name: Prueba de mensajes
         run: echo "Hola Grupo 4, bienvenidos a GitHub Actions"
+        
+      - name: Variables creada en el workflow
+        run: |
+          echo "Grupo: $GRUPO"
+          echo "Curso: $CURSO"
+          echo "Despedida: $DESPEDIDA"
