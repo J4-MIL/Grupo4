@@ -9,3 +9,11 @@ env:
   GRUPO: "Grupo 4"
   CURSO: "Herramientas de Desarrollo"
   DESPEDIDA: "SI"
+
+jobs:
+  saludo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Prueba de mensajes
+        run: echo "Hola Grupo 4, bienvenidos a GitHub Actions"
