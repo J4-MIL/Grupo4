@@ -1,0 +1,6 @@
+name: Grupo4
+
+on:
+  push:
+    branches:
+      - main
